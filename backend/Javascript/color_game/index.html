@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- inform the browser that the document being rendered is an HTML document -->
+<!-- default is HTML5.For older documents(HTML 4 or XHTML is more complicated) -->
+<html>
+<head>
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <!-- header -->
+    <h1 id="header">
+        THE GREAT<br>
+        <span id="colorDisplay">RGB</span><br>
+        COLOR GAME
+    </h1>
+    <!-- control panel-->
+    <div id="stripe">
+        <button id="reset">NEW COLORS</button><span id="message"></span>
+        <button class="easyBtn">Easy</button>
+        <button class="hardBtn selected">Hard</button>
+    </div>
+    <!--six random RGB color squares-->
+    <div id="container">
+        <div class="square"></div> 
+        <div class="square"></div> 
+        <div class="square"></div> 
+        <div class="square"></div> 
+        <div class="square"></div> 
+        <div class="square"></div> 
+    </div>
+
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
